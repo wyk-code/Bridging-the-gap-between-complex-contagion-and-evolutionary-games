@@ -4,21 +4,28 @@ We investigate the polarization probability in well-mixed populations and comple
 
 (1) Monte Carlo Simulations
 
-voter_wellmixed.m: Simulations in well-mixed populations.\\
-voter_static_polarization_ER.m: Simulations on Erdős–Rényi (ER) networks.\\
-voter_static_polarization_WS.m: Simulations on Watts–Strogatz (WS) networks.\\
+voter_wellmixed.m: Simulations in well-mixed populations.
+
+voter_static_polarization_ER.m: Simulations on Erdős–Rényi (ER) networks.
+
+voter_static_polarization_WS.m: Simulations on Watts–Strogatz (WS) networks.
+
 voter_static_polarization_BA.m: Simulations on Barabási–Albert (BA) networks.
 
 (2) Evolutionary Game Theory
    
-fixation_curve.m: Computes fixation probability curves for evolutionary games.\\
+fixation_curve.m: Computes fixation probability over different initial fractions of strategy A.
+
 fixation_probability_evolutionary_game_theory.m: Calculates fixation probabilities in the Moran process.
 
 (3) Parameter Fitting
 
-unified_best_fitting_three_alphas.m: Parameter fitting for three selected values of $\alpha$.\\
-unified_best_fitting_wellmixed_all_alphas.m: Parameter fitting other $\alpha$ values in well-mixed populations.\\
-unified_best_fitting_networks.m: Parameter fitting for different network structures.\\
+unified_best_fitting_three_alphas.m: Parameter fitting for three selected values of $\alpha$.
+
+unified_best_fitting_wellmixed_all_alphas.m: Parameter fitting other $\alpha$ values in well-mixed populations.
+
+unified_best_fitting_networks.m: Parameter fitting for different network structures.
+
 unified_best_fitting_networks_all_alphas.m: Parameter fitting other $\alpha$ values on different networks.
 
 In all the three network models, the population size is N=100 and the average degree of $\bar{k}=8$. The number of undirected links is $L=400$.
