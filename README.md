@@ -4,7 +4,7 @@ We investigate the polarization probability in well-mixed populations and comple
 
 (1) Monte Carlo Simulations
 
-voter_wellmixed.m: Simulations in well-mixed populations.
+voter_wellmixed_polarization_probability_select_neighbor.m: Simulations in well-mixed populations.
 
 voter_static_polarization_ER.m: Simulations on Erdős–Rényi (ER) networks.
 
