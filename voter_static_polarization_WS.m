@@ -96,7 +96,7 @@ xlim([0,1]);
 ylim([0,1]);
 
 %% ============================================================
-%  Function 1: Conservative learning on ER network
+%  Function 1: Conservative learning on WS network
 %% ============================================================
 
 function x_plus = voter_static_polarization(alpha,polarization_initial,N)
