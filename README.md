@@ -28,7 +28,7 @@ unified_best_fitting_networks.m: Parameter fitting for different network structu
 
 unified_best_fitting_networks_all_alphas.m: Parameter fitting other $\alpha$ values on different networks.
 
-In all the three network models, the population size is $N=100$ and the average degree of $\bar{k}=8$. The number of undirected links is $L=400$.
+In all the three network models, the population size is $N=100$ and the average degree is $\bar{k}=8$. The number of undirected links is $L=400$.
 The three networks are generated as follows:
 
 (a) ER networks: Firstly, we generate a random tree to ensure connectivity. Then, additional links are randomly added between unconnected node pairs until the number of links ($L=400$) is reached.
