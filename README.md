@@ -30,6 +30,7 @@ unified_best_fitting_networks_all_alphas.m: Parameter fitting other $\alpha$ val
 
 In all the three network models, the population size is $N=100$ and the average degree of $\bar{k}=8$. The number of undirected links is $L=400$.
 The three networks are generated as follows:
+
 (a) ER networks: Firstly, we generate a random tree to ensure connectivity. Then, additional links are randomly added between unconnected node pairs until the number of links ($L=400$) is reached.
 
 (b) WS networks: Firstly, we generate a regular ring lattice in which each node is connected to its $\bar{k}=8$ nearest neighbors (four on each side). We assume that the rewiring probability is $p=0.3$. The new endpoint is selected randomly from the non-neighbors of the focal node. 
