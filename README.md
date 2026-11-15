@@ -1,4 +1,4 @@
-We consider a three-opinion model with conservative learning, where individuals can hold a positive (+), negative (−), or neutral (0) opinion. The nonlinear learning behavior is controlled by the parameter $\alpha$.
+We consider a three-opinion model with conservative learning, where individuals can hold a positive (+), negative (−), or neutral (0) opinion. $\alpha \ge 1$ is a nonlinear exponent to control the extent of nonlinearity in conservative learning.
 
 We investigate the polarization probability in well-mixed populations and complex networks, including Erdős–Rényi (ER), Watts–Strogatz (WS), and Barabási–Albert (BA) networks.
 
@@ -14,7 +14,7 @@ voter_static_polarization_BA.m: Simulations on Barabási–Albert (BA) networks.
 
 (2) Evolutionary Game Theory
    
-fixation_curve.m: Computes fixation probability over different initial fractions of strategy A.
+fixation_curve.m: Computes fixation probability for different initial fractions of strategy A.
 
 fixation_probability_evolutionary_game_theory.m: Calculates fixation probabilities in the Moran process.
 
